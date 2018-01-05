@@ -30,9 +30,9 @@ optional arguments:
   -u , --url           the url containing the tunnel script
   -v , --verbose       Verbose output[INFO|DEBUG]
 ```
-+ Step 1. Upload NQtunnel.* to a webserver
-+ Step 2. Configure you tools to use a socks proxy, use the ip address and port you specified when you started the NQSocksProxy.py
-+ Step 3. Happy hacking!
++ __Step 1.__ Upload NQtunnel.* to a webserver
++ __Step 2.__ Configure you tools to use a socks proxy, use the ip address and port you specified when you started the NQSocksProxy.py
++ __Step 3.__ Happy hacking!
 - __Note: U only use tools, which based TCP/IP__
 
 
