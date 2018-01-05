@@ -9,14 +9,14 @@
                  ||----w |
                  ||     ||
 ```
-##Dependencies
+## Dependencies
 + python2.7
 + requests
 + socket
 + argparse
 
 
-##Usage
+## Usage
 ```
 $ NQSocksProxy.py [-h] [-l] [-p] [-r] -u  [-v]
 
@@ -36,7 +36,7 @@ optional arguments:
 - __Note: U only use tools, which based TCP/IP__
 
 
-##New Features!
+## New Features!
 + Upgrade from sensepost
 + Add ids/ips evasion techniques
 + Handle threads
