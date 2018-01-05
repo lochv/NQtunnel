@@ -1,5 +1,4 @@
 # NQtunnel
-======
 ```
   ________
 < NQtunnel >
@@ -16,7 +15,6 @@
 + socket
 + argparse
 
-======
 
 ##Usage
 ```
@@ -34,15 +32,12 @@ optional arguments:
 ```
 + Step 1. Upload NQtunnel.* to a webserver
 + Step 2. Configure you tools to use a socks proxy, use the ip address and port you specified when you started the NQSocksProxy.py
-...**Note: U only use tools, which based TCP/IP
 + Step 3. Happy hacking!
+- __Note: U only use tools, which based TCP/IP__
 
-======
 
 ##New Features!
 + Upgrade from sensepost
 + Add ids/ips evasion techniques
 + Handle threads
 + Upcoming hidden features
-
-======
