@@ -315,11 +315,11 @@ def askNQ(connectString):
 if __name__ == '__main__':
 
     log.setLevel(logging.DEBUG)
-    parser = argparse.ArgumentParser(description='Socks server for reGeorg HTTP(s) tunneller')
-    parser.add_argument("-l", "--listen-on", metavar="", help="The default listening address", default="127.0.0.1")
-    parser.add_argument("-p", "--listen-port", metavar="", help="The default listening port", type=int, default="8888")
-    parser.add_argument("-r", "--read-buff", metavar="", help="Local read buffer, max data to be sent per POST", type=int, default="1024")
-    parser.add_argument("-u", "--url", metavar="", required=True, help="The url containing the tunnel script")
+    parser = argparse.ArgumentParser(description='Example: NQSocksProxy.py -u http://target.com/tunnel.php')
+    parser.add_argument("-l", "--listen-on", metavar="", help="the default listening address: 127.0.0.1", default="127.0.0.1")
+    parser.add_argument("-p", "--listen-port", metavar="", help="the default listening port: 8888", type=int, default="8888")
+    parser.add_argument("-r", "--read-buff", metavar="", help="local read buffer, max data to be sent per POST", type=int, default="1024")
+    parser.add_argument("-u", "--url", metavar="", required=True, help="the url containing the tunnel script")
     parser.add_argument("-v", "--verbose", metavar="", help="Verbose output[INFO|DEBUG]", default="INFO")
     args = parser.parse_args()
 
