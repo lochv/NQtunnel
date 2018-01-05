@@ -188,7 +188,7 @@ class session(Thread):
         }
         response = requests.post(url=self.connectString, headers=headers)
         if response.status_code == 200:
-            log.info("[+]] [%s:%d] Connection Terminated" % (self.target, self.port))
+            log.info("[+] [%s:%d] Connection Terminated" % (self.target, self.port))
 
     def reader(self):
         while True:
